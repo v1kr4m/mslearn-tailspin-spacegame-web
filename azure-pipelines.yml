@@ -37,7 +37,7 @@ trigger:
     workingDirectory: Tailspin.SpaceGame.Web/wwwroot
   
   - task: DotNetCoreCLI@2
-    displayName: 'Restore project dependencies'
+    displayName: 'Restore project dependency'
     inputs:
       command: 'restore'
       projects: '**/*.csproj'
